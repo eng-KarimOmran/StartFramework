@@ -12,7 +12,7 @@ import Contact from './Components/Contact/Contact'
 function App() {
   const [count, setCount] = useState(0)
   const router = createBrowserRouter([
-    {path:'/',element:<Layout />, children:[
+    {path:'StartFramework',element:<Layout />, children:[
       {index:true,element:<Home />},
       {path:'about',element:<About />},
       {path:'portfolio',element:<Portfolio />},
