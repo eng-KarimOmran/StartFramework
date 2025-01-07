@@ -1,0 +1,7 @@
+form input{
+    outline: none;
+    border: 0;
+}
+form button{
+    background-color: #1ABC9C !important;
+}
