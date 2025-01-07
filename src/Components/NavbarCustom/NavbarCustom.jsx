@@ -14,7 +14,7 @@ export default function NavbarCustom() {
         <nav className='py-4 position-fixed w-100 bg-main font-family z-2'>
             <div className='container'>
                 <div className='d-flex justify-content-between align-items-center flex-wrap'>
-                <NavLink className='text-white text-decoration-none text-uppercase text-center nav-brand' to='/'>Start Framework</NavLink>
+                <NavLink className='text-white text-decoration-none text-uppercase text-center nav-brand' to='StartFramework'>Start Framework</NavLink>
                 <button onClick={btnNavbar} className='btn text-white d-inline-block d-lg-none p-Custom'><i className='fa-solid fa-list'></i></button>
                 <ul className={`col-12 col-lg-auto d-flex flex-column flex-lg-row list-style-none ps-0 mb-0 ${isOpen ? 'open-nav' : ''}`}>
                     <li onClick={closeNav} className='mx-lg-2 my-2 my-lg-0'><NavLink className='text-white text-decoration-none text-uppercase p-2' to='/about'>about</NavLink></li>
